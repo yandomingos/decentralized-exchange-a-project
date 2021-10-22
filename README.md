@@ -58,7 +58,7 @@ The detailed dependencies and there versions can be found in the file [package.j
 
 ### Set Up Website
 
-1. cd into 
+1. cd into "project pr0"
 2. Run `npm install`
 3. Run `npm run start` in console
 4. If all token balances are 0 in the website, make sure your Metamask account is connected to the website

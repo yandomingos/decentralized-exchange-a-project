@@ -22,7 +22,7 @@ In this project we have made an attempt to exactly do that, create a decentraliz
 - sublime text
 
 The detailsed dependencies and there versions can be found in this file ![package.json
-](package.json)
+](./package.json)
 
 
 ### Initial Setup

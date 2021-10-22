@@ -21,38 +21,40 @@ In this project we have made an attempt to exactly do that, create a decentraliz
 - npm
 - sublime text
 
-The detailsed dependencies and there versions can be found in this file ![package.json
-](./package.json)
+The detailed dependencies and there versions can be found in the file [package.json
+](package.json)
 
 
 ### Initial Setup
 
-1. cd into project directory
-2. Run `npm install`
+1. Go to "disc C" and create directory named "project pr0"
+2. Run the following under Powershell "as administrator" 
+    * ` dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart `
+    * ` dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart `
+    * ` Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All `
+      Restart your computer
+3. Download and Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
+4. Download and Install [Ganache](https://www.trufflesuite.com/ganache)
+5. Download, Install and Launch **Ubuntu from Microsoft Store**
+6. Download and Install **Windows Terminal from Microsoft Store**
+    * Go To settings, paste the contents of [settings.json](settings.json and save file
+    * Run: `sudo apt-get update`
+    * Run: `sudo apt install python2`
+    * Run: `sudo apt-get install build-essential`
+    * Run: `echo "alias subl='"'"/mnt/c/Program Files/Sublime Text 3/subl.exe"'"'" >> ~/.bashrc`
+    * Run: `echo "alias npms='CHOKIDAR_USEPOLLING=true npm start'" >> ~/.bashrc`
+    * Run: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.1/install.sh | bash`
+    * Restart Windows Terminal
+    * Run: `nvm install 10.19.0`
+    * Run: `npm i -g truffle`
 
+### Set Up MetaMask and Ganache Accounts
 
-### Set Up Ganache
-
-
-
-### Set Up Accounts
-
-![Orders Architecture](./assets/ganache1.png) ![Orders Architecture](./assets/ganache2.png)
-
-1. Open up Metamask and add a new Custom RPC
-
-![Orders Architecture](./assets/ganache3.png)
-
-2. The RPC URL can be found on Ganache
-
-![Orders Architecture](./assets/ganache4.png)
-
-![Orders Architecture](./assets/ganache.png)
-
-3. Import the first account on Ganache to your Metamask. The private key of that account can be found by clicking on the 'key' icon on Ganache
-4. You can add all the accounts in Ganache to simulate multiple users.
-5. Only the first account is the owner account which deployed all the contracts. This will be the account that will have the initial supply of SCSE, MAE and EEE tokens.
-6. If you do not see the ETH being reflected in your Metamask wallet, change to another network and change back to Ganache
+1. Open and install [MetaMask](https://metamask.io/)
+2. Import the first account on Ganache to your Metamask. The private key of that account can be found by clicking on the 'key' icon on Ganache
+3. You can add all the accounts in Ganache to simulate multiple users.
+4. Only the first account is the owner account which deployed all the contracts. This will be the account that will have the initial supply of tokens.
+5. If you do not see the ETH being reflected in your Metamask wallet, change to another network and change back to Ganache
 
 ### Set Up Website
 

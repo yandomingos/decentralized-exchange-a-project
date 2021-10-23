@@ -1,0 +1,19 @@
+{
+  "name": "decentralized-exchange-a-project",
+  "version": "1.0.0",
+  "description": "![DEX](https://user-images.githubusercontent.com/83671629/138368750-a9cfd0ad-2577-425b-8450-04770c05be6a.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandomingos/decentralized-exchange-a-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yandomingos/decentralized-exchange-a-project/issues"
+  },
+  "homepage": "https://github.com/yandomingos/decentralized-exchange-a-project#readme"
+}

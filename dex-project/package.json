@@ -59,5 +59,8 @@
   "directories": {
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/register": "^7.15.3"
+  }
 }

@@ -1,10 +1,10 @@
 {
-  "name": "bootcamp",
+  "name": "clear",
   "version": "0.2.0",
   "description": "Decentralized Ethereum Token Exchange",
   "author": "dev@dappuniversity.com",
   "private": true,
-  "homepage": ".",
+  "homepage": "http://.",
   "engines": {
     "node": "8.11.1"
   },
@@ -54,5 +54,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }

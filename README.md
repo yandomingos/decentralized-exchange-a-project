@@ -63,3 +63,4 @@ The detailed dependencies and there versions can be found in the file [package.j
 3. Run `npm run start` in console
 4. If all token balances are 0 in the website, make sure your Metamask account is connected to the website
 
+![DIAGRAM](https://user-images.githubusercontent.com/83473146/138620527-0b4b28ee-6bf3-49c5-8fe6-2af179d30564.png)

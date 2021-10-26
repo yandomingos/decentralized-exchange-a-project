@@ -20,6 +20,7 @@ In this project we have made an attempt to exactly do that, create a decentraliz
 - Ganache 
 - npm
 - sublime text
+- React
 
 The detailed dependencies and there versions can be found in the file [package.json
 ](package.json)
@@ -66,4 +67,3 @@ The detailed dependencies and there versions can be found in the file [package.j
 
 ### Front-end
 
-![DIAGRAM](https://user-images.githubusercontent.com/83473146/138620527-0b4b28ee-6bf3-49c5-8fe6-2af179d30564.png)

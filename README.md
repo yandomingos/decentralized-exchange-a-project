@@ -23,7 +23,7 @@ In this project we have made an attempt to exactly do that, create a decentraliz
 - React
 
 The detailed dependencies and there versions can be found in the file [package.json
-](package.json)
+](/dex-project/package.json)
 
 
 ### Initial Setup

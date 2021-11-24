@@ -7,7 +7,7 @@ import configureStore from './store/configureStore'
 import 'bootstrap/dist/css/bootstrap.css'
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+render(
   <Provider store={configureStore()}>
     <App />
   </Provider>,
